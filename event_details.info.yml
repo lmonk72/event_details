@@ -1,0 +1,5 @@
+name: Event Details
+type: module
+description: Provides a custom block with event details which can be customised.
+package: Custom
+core_version_requirement: ^8 || ^9

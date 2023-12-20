@@ -1,0 +1,38 @@
+:root {
+  --n-colour-primary: hsl(162, 51%, 49%);
+  --n-colour-primary-a: hsl(162, 51%, 49%, 10%);
+  --n-colour-white: hsl(0, 0%, 100%);
+  --n-font: 1.125rem;
+}
+
+.event-details {
+  padding: 1.5rem 2rem;
+  border-left: 3px solid var(--n-colour-primary);
+  margin: 1rem;
+  background-color: var(--n-colour-primary-a);
+  color: var(--n-colour-white);
+}
+
+.event-date {
+  margin-bottom: 1rem;
+}
+
+.event-venue {
+
+}
+
+@media screen and (min-width: 48rem) {
+  .event-details {
+    display: inline-flex;
+  }
+
+  .event-date {
+    margin-right: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .event-details {
+    font-size: var(--n-font);
+  }
+}
