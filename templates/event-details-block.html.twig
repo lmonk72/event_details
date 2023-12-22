@@ -1,4 +1,10 @@
+{% if event_date %}
 <div class="event-details">
-  <div class="event-date">{{ event_date }}</div>
-  <div class="event-venue">{{ event_venue }}</div>
+  <div class="event-date">
+    {{ event_date }}
+  </div>
+  <div class="event-venue">
+    {{ event_venue }}
+  </div>
 </div>
+{% endif %}

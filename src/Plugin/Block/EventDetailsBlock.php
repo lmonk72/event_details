@@ -5,6 +5,7 @@ namespace Drupal\event_details\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
 
+
 /**
  * Provides an Event Details block.
  *
