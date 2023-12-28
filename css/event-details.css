@@ -8,7 +8,8 @@
 .event-details {
   padding: 1.5rem 2rem;
   border-left: 3px solid var(--n-colour-primary);
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background-color: var(--n-colour-primary-a);
   color: var(--n-colour-white);
 }
